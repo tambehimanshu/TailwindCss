@@ -23,6 +23,7 @@ function App() {
           
             <p className="text-slate-500">VIRAT Kohlii</p>
             <p>Brand Of Cricket</p>
+            <p>RCB</p>
           </div>
         </div>
         </div>

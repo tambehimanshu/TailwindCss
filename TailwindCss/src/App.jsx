@@ -30,9 +30,9 @@ function App() {
       </div>
 
       <div>
-        <div className="p-6 max-w-base mx-auto rounded-xl  h-full items-center space-x-4 bg-slate-950 mt-5">
+        <div className="p-6 max-w-base mx-auto rounded-xl  w-40 h-full items-center space-x-4 bg-slate-950 mt-5">
          <div>
-            <img className="h-20 w-30"
+            <img className="h-20 w-200"
               src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202502/virat-kohli-312826258-16x9.jpg?VersionId=KRRPsSiipmTumDS2YbQ_XUWpLD8IlkZJ"
               alt=""
             />
@@ -45,9 +45,33 @@ function App() {
 
           </div>
           <p>KING</p>
+         
+      </div>
+         <button className="h-100 w-33 bg-sky-500 text-white hover:bg-sky-700 hover:text-black "> Buy Now </button>
+         
         </div>
+        <div className="text-center my-4">
+          <p className="text-white  md:text-green-400 sm: text-red-500"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error consequatur aut ab asperiores placeat? Consequuntur minus tempore veritatis voluptas officia ea, nostrum quaerat beatae cupiditate tenetur odit, quae ut nemo.</p>
+
+         </div>
+       </div>
+
+      </div>
+      <div className="mt-3">
+       <div className="max-w-sm mx-auto rounded-xl bg-white overflow-hidden md:max-w-2xl">
+        <div className="md:flex">
+          <div>
+            <img  className="h-48 w-full object-cover md:h-full md:w-48 "src="https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          </div>
+          <div className="p-8 text-black">
+            <div className=" uppercase text-indigo-400 font-semibold"> An awesome card </div>
+            <a href="#">TailwindCss is Amazing once you understand the power of it</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non similique repellat modi in voluptates quidem dolores magni. Dolor, praesentium ipsa.</p>
+            
+          </div>
         </div>
        </div>
+
       </div>
     </>
   );

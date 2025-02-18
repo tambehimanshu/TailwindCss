@@ -21,7 +21,7 @@ function App() {
          <div>
           <div>
           
-            <p className="text-slate-500">VIRAT Kohli</p>
+            <p className="text-slate-500">VIRAT Kohlii</p>
           </div>
         </div>
         </div>
